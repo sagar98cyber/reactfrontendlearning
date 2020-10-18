@@ -1,23 +1,25 @@
 import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
-
+import './Navbar.css'
 
 function Navbar() {
-    const [click,setClick] = useState(false);
-    return (
-        
+    //const [click,setClick] = useState(false);
 
+    //const handleClick = () => setClick(!click)
+
+    return (
         <>
-          <nav className="navbar">
-                <div className="navbar-container">
+          <nav className="navbar">    
                     <Link to='/' className = 'navbar-logo'>
-                        VOCAL FOR MY LOCAL
+                        VoLo
                     </Link>
-                    <div className = 'menu-icon'>
-                        {/*<i className={click ? 'fas fa-times':'fas fa-bars'}></i>*/}
-                        <i class="fas fa-info-circle"></i>
-                    </div>
-                </div>
+                    <Link to ='/info'>
+                        <div className = 'menu-icon'  >{/*onClick={handleClick}*/}
+                            <i class = 'fas fa-info-circle' />
+                            {/* <i class={ click ? "fas fa-info-circle":"fas fa-bars"}></i>*/}
+                        
+                        </div>
+                    </Link> 
             </nav>  
         </>
     )
