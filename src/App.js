@@ -2,6 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import './App.css';
+import Home from './components/Pages/Home'
+import Info from './components/Pages/Info'
+import Mumbai from './components/Location/MLocation'
+import NMumbai from './components/Location/NMLocation'
+import Pune from './components/Location/Pune'
+import Airoli from './components/stations/stations'
+
 
 function App() {
   return (
@@ -9,7 +16,12 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
-        <Route path = '/' exact></Route>
+        <Route path = '/' exact component={Home}></Route>
+        <Route path = '/info' exact component={Info}></Route>
+        <Route path = '/mumbai' exact component = {Mumbai}></Route>
+        <Route path = '/nmumbai' exact component = {NMumbai}></Route>
+        <Route path = '/p' exact component = {Pune}></Route>
+        <Route path = '/airoli' exact component = {Airoli}></Route>
       </Switch>
       </Router>
     </>

@@ -1,0 +1,11 @@
+ <div className='home'>
+            <Link to = '/mumbai'>  
+                <Button className='mumbai ' styles={{}}>Mumbai</Button>
+            </Link>
+        </div>
+
+        <img src="src\Media\Scroll Group 1.png"></img>
+
+         <>
+                    <img src={m} alt="Mumbai" />
+                    </>
