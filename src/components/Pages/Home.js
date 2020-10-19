@@ -1,8 +1,6 @@
 import './Home.css'
-//import {Button} from '../Pages/Button'
 import React from 'react'
 import {Link} from 'react-router-dom'
-//import styled from 'styled-components'
 import m from '../../Media/mm.png'
 import nm from '../../Media/nm.png'
 import p from '../../Media/pu.png'
