@@ -3,10 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
-
+import {shops} from '../shops/shops.js'
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-
+import {Link} from 'react-router-dom'
 import {Row, Col} from "reactstrap"
 import cake from'../../Media/sweet.jpeg'
 import c2 from '../../Media/cup.jpeg'
@@ -32,6 +32,7 @@ const useStyles = makeStyles({
     height: 140,
   },
   white:{
+    fontFamily:'Roboto Sans-Serif',
     color: 'white',
   },
   a:{
@@ -42,7 +43,18 @@ const useStyles = makeStyles({
 
 
 export default function MediaCard() {
-  var cakes =[{image:`${cake}`,title:"cake 1"},{image:`${c2}`, title:"cake2"},{image:`${cake}`,title:"cake 1"},{image:`${c2}`, title:"cake2"},{image:`${cake}`,title:"cake 1"},{image:`${c2}`, title:"cake2"},{image:`${cake}`,title:"cake 1"},{image:`${c2}`, title:"cake2"},{image:`${cake}`,title:"cake 1"},{image:`${c2}`, title:"cake2"},{image:`${cake}`,title:"cake 1"},{image:`${c2}`, title:"cake2"},{image:`${cake}`,title:"cake 1"},{image:`${c2}`, title:"cake2"},]
+  var cakes =[{image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},]
   const classes = useStyles();
 
   return (
@@ -50,13 +62,13 @@ export default function MediaCard() {
     {cakes.map((cakes)=>(
       <Col>
     <Card className={classes.root}>
-      <CardActionArea>
+      <Link to = {`/${cakes.title}`}>
         <CardMedia
           className={classes.media}
           image={`${cakes.image}`}
           title={`${cakes.title}`}
         />
-      </CardActionArea>
+      
       <CardActions className={classes.a}>
         {/*<Button size="small" color="primary">
           Share
@@ -68,6 +80,7 @@ export default function MediaCard() {
           </div>
         </Button>
       </CardActions>
+      </Link>
     </Card>
     </Col>
     ))}

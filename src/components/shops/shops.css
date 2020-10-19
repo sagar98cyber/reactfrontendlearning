@@ -26,6 +26,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.catname:hover{
+.catname{
     cursor: default;
 }
