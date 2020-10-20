@@ -4,7 +4,7 @@ import './products.css'
 function Cake() {
     return (
         <div className="products">
-            Cake
+       Product Name
         </div>
     )
 }
