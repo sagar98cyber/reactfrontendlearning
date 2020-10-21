@@ -6,10 +6,15 @@
    align-items: center;
    justify-content: center;
    overflow-y: auto;   
+   padding-left: 2%;
 }
 
 .name:hover{
     cursor: default;
+}
+
+.right{
+    padding-right: 25px;
 }
 
 .catname{
@@ -26,6 +31,64 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.white{
+    color:white;
+    text-decoration: none;
+    
+}
+
+.white:hover{
+    text-shadow: 2px 2px 15px whitesmoke ;
+}
+
+.d{
+    padding-top: 25px;
+    font-size: xx-large;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
 .catname:hover{
     cursor: default;
+}
+
+.division{
+    display: flex;
+    justify-content: start;
+    /*justify-content: space-around;*/
+}
+
+.description{
+    max-width: 50%;
+    padding-top: 25px;
+}
+
+.prodnme{
+  padding-top: 25px;
+  text-align: start;
+  color: #45F8C2;
+  font-weight: 600;
+  font-size: 4rem;
+  text-shadow:  none ;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.pimage{
+    margin-top: 25px;
+    box-shadow: 10px 5px 5px black;
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    /*padding-right: 20%;*/
+}
+
+
+.amount{
+    padding-top: 40px;
+    color: #45F8C2;
 }

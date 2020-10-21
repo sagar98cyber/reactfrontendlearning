@@ -10,6 +10,7 @@ import Pune from './components/Location/Pune'
 import Airoli from './components/stations/stations'
 import Cake from './components/products/Cake'
 import c2 from './components/products/c2'
+import shops from './components/shops/shops';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path = '/airoli' exact component = {Airoli}></Route>
         <Route path = '/cake' exact component = {Cake}></Route>
         <Route path = '/c2' exact component = {c2}></Route>
+        <Route path = '/shops' exact component = {shops}></Route>
       </Switch>
       </Router>
     </>

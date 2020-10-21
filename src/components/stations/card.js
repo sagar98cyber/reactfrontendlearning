@@ -34,6 +34,7 @@ const useStyles = makeStyles({
   white:{
     fontFamily:'Roboto Sans-Serif',
     color: 'white',
+    textDecoration:'none',
   },
   a:{
     justifyContent: 'center ',
@@ -43,7 +44,7 @@ const useStyles = makeStyles({
 
 
 export default function MediaCard() {
-  var cakes =[{image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  var cakes =[
   {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
   {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
   {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
@@ -54,7 +55,9 @@ export default function MediaCard() {
   {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
   {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
   {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
-  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},]
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+  {image:`${cake}`,title:"cake"},{image:`${c2}`, title:"c2"},
+]
   const classes = useStyles();
 
   return (
@@ -75,7 +78,7 @@ export default function MediaCard() {
           </Button>*/}
         
         <Button size="small" color="#">
-          <div className={classes.white}>
+          <div className={classes.white} style={{textDecoration:'none'}}>
           Learn More
           </div>
         </Button>
