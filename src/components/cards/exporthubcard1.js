@@ -1,5 +1,17 @@
 import React from 'react';
 import e1 from '../../Media/export_1.png';
+import e2 from '../../Media/export_2.png';
+import e3 from '../../Media/export_3.png';
+import e4 from '../../Media/export_4.png';
+import e5 from '../../Media/export_5.png';
+import e6 from '../../Media/export_6.png';
+import e7 from '../../Media/export_7.png';
+import e8 from '../../Media/export_8.png';
+import e9 from '../../Media/export_9.png';
+import e10 from '../../Media/export_10.png';
+import e11 from '../../Media/export_11.png';
+import e12 from '../../Media/export_12.png';
+import e13 from '../../Media/export_13.png';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -45,16 +57,19 @@ const useStyles = makeStyles({
 
 export default function ExportHubCard1() {
   var cakes =[
-  {image:`${cake}`,title:"cake"},
-  {image:`${c2}`, title:"c2"},
   {image:`${e1}`,title: "exporthubj1"},
-  {image:`${cake}`,title:"cake"},
-  {image:`${c2}`, title:"c2"},
-  {image:`${e1}`,title: "exporthubj1"},
-  {image:`${cake}`,title:"cake"},
-  {image:`${c2}`, title:"c2"},
-  {image:`${e1}`,title: "exporthubj1"},
-  {image:`${cake}`,title:"cake"},  
+  {image:`${e2}`,title: "exporthubj2"},
+  {image:`${e3}`,title: "exporthubj3"},
+  {image:`${e4}`,title: "exporthubj4"},
+  {image:`${e5}`,title: "exporthubj5"},
+  {image:`${e6}`,title: "exporthubj6"},
+  {image:`${e7}`,title: "exporthubj7"},
+  {image:`${e8}`,title: "exporthubj8"},
+  {image:`${e9}`,title: "exporthubj9"},
+  {image:`${e10}`,title: "exporthubj10"},
+  //{image:`${e11}`,title: "exporthubj11"},
+  //{image:`${e12}`,title: "exporthubj12"},
+  
 ]
   const classes = useStyles();
 

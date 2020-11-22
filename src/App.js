@@ -21,6 +21,7 @@ import exporthubj5 from './components/products/exporthubj5';
 import exporthubj6 from './components/products/exporthubj6';
 import exporthubj7 from './components/products/exporthubj7';
 import exporthubj8 from './components/products/exporthubj8';
+import exporthubj9 from './components/products/exporthubj9';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <Route path = '/exporthubj6' exact component={exporthubj6}></Route>
         <Route path = '/exporthubj7' exact component={exporthubj7}></Route>
         <Route path = '/exporthubj8' exact component={exporthubj8}></Route>
+        <Route path = '/exporthubj9' exact component={exporthubj9}></Route>
         <Route path = '/exporthub' exact component={ExportHub}></Route>
         <Route path = '/info' exact component={Info}></Route>
         <Route path = '/mumbai' exact component = {Mumbai}></Route>

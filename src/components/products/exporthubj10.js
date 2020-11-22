@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 import React from 'react'
-import m from '../../Media/export_7.png'
+import m from '../../Media/export_10.png'
 import './products.css'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
@@ -9,11 +9,11 @@ import c2 from './c2'
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 
-function ExportHubj7() {
+function ExportHubj10() {
     return (
         <Container className="products">
             <Row className = "prodnme">
-                Export Hub Jersey7
+                Export Hub Jersey10
             </Row>
             <Row className="division">
                 <Col>
@@ -34,6 +34,8 @@ function ExportHubj7() {
                     </Row>    
                 </Col>
                 <Col className="right">
+                  
+                     {/*<img src={m} style={{borderRadius:"10px"}} className="pimage"/> */}   
                      <TransformWrapper>
                         <TransformComponent>
                         <img src={m} style={{borderRadius:"10px"}} className="pimage"/>
@@ -47,5 +49,5 @@ function ExportHubj7() {
 }
 
 
-export default ExportHubj7
+export default ExportHubj10
 
