@@ -15,7 +15,7 @@ import { BiMap } from 'react-icons/bi'
     
     
     function NMLocation() {
-        var station=["AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI","AIROLI",]
+        var station=["AIROLI","VASHI"]
     return (
         <div className = 'cityname'>
            

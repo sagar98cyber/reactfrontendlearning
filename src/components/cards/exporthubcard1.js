@@ -2,16 +2,14 @@ import React from 'react';
 import e1 from '../../Media/export_1.png';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
-import {shops} from '../shops/shops.js'
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import {Link} from 'react-router-dom'
 import {Row, Col} from "reactstrap"
 import cake from'../../Media/sweet.jpeg'
 import c2 from '../../Media/cup.jpeg'
-import './card.css'
+import '../stations/card.css'
 
 const useStyles = makeStyles({
   root: {
@@ -45,7 +43,7 @@ const useStyles = makeStyles({
 });
 
 
-export default function MediaCard() {
+export default function ExportHubCard1() {
   var cakes =[
   {image:`${cake}`,title:"cake"},
   {image:`${c2}`, title:"c2"},
