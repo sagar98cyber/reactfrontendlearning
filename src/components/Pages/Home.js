@@ -15,55 +15,46 @@ let theme = createMuiTheme();
 theme=responsiveFontSizes(theme);
 
  export default function Home(){
-    
     return(
         <div className='home'>
-            
-                {/*<Button className='mumbai' styles = {{backgroundImage:`url(${m})`}}>*/}           
                 <div className="loc">  
-
                     <div className="bmumbai bmmumbai">
-                    <Link to = '/mumbai'>  
-                     <img src={m}  alt="Mumbai" width = "1000" className="responsive"/>
-                        <div className="child">
-                            <MuiThemeProvider>
-                                <Typography variant="p" gutterBottom>
-                                    MUMBAI
-                                </Typography>
-                            </MuiThemeProvider>
-                        </div>
+                        <Link to = '/mumbai'>  
+                            <img src={m}  alt="Mumbai" width = "1000" className ="responsive"/>
+                            <div className="child">
+                                <MuiThemeProvider>
+                                    <Typography variant="p" gutterBottom>
+                                        MUMBAI
+                                    </Typography>
+                                </MuiThemeProvider>
+                            </div>
                         </Link>
-                    </div>
-                   
-                    
+                    </div>                  
                     <div className="bmumbai">
-                    <Link to = '/nmumbai'>  <img src={nm}  alt="Mumbai" width = "1000" className="responsive"/> 
-                        <div className="child ">
-                            <MuiThemeProvider>
-                                <Typography variant="p" gutterBottom>
-                                   NAVI MUMBAI
-                                </Typography>
-                            </MuiThemeProvider>
-                        </div>
+                    <Link to = '/nmumbai'>  
+                            <img src={nm}  alt="Mumbai" width = "1000" className="responsive"/> 
+                            <div className = "child ">
+                                <MuiThemeProvider>
+                                    <Typography variant="p" gutterBottom>
+                                        NAVI MUMBAI
+                                    </Typography>
+                                </MuiThemeProvider>
+                            </div>
                         </Link>
-                    </div>
-                    
-                   
+                    </div>                    
                     <div className="bmumbai">
-                    <Link to = '/p'>  <img src={p}  alt="Mumbai" width = "1000" className="responsive"/>
-                        <div className="child">
-                            <MuiThemeProvider>
-                                <Typography variant="P" gutterBottom>
-                                    PUNE
-                                </Typography>
-                            </MuiThemeProvider>
-                        </div>
-                        </Link>
-                    </div>
-
-                    
-                    
+                        <Link to = '/p'>  
+                            <img src={p}  alt="Mumbai" width = "1000" className="responsive"/>
+                                <div className ="child">
+                                    <MuiThemeProvider>
+                                        <Typography variant="P" gutterBottom>
+                                            PUNE
+                                        </Typography>
+                                    </MuiThemeProvider>
+                                </div>
+                            </Link>
+                    </div>                  
                 </div>
-        </div>
+            </div>
     )
  }
