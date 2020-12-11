@@ -8,7 +8,7 @@ import ExportHubCard1 from '../cards/exporthubcard1'
 import ExportHubCard2 from '../cards/exporthubcar2'
 function ExportHub() {
     return (
-        <Container className="products">
+        /*<Container className="products">
             <Row className = "prodnme">
                 Export Hub
             </Row>
@@ -16,10 +16,7 @@ function ExportHub() {
                 <Col>
                     <Row>                           
                         <Row className="description "> 
-                                  {/*  <Row className="d ">
-                                        <Link to="/shops" style={{textDecoration:"none"}}>
-                                        <div className="white">SHOP NAME</div>
-    </Link></Row>*/}
+                               
                                     <Row className="d">Description</Row>
                                     <Row style={{width:'100%'}}>
                                         Nostrud reprehenderit dolor et do. Commodo proident occaecat cillum sit laborum nisi aliqua ea. Ad exercitation aliqua quis laboris consequat adipisicing laborum reprehenderit commodo labore.
@@ -40,7 +37,36 @@ function ExportHub() {
                     </Row>    
                 </Col>
                 </Row>
-                </Container>
+    </Container>*/
+
+    <Container className="products">
+    <Row className = "prodnme">
+        Export Hub
+    </Row>
+                            <Row className="d">Deciption</Row>
+                            <Row style={{width:'device-width'}}>
+                                Nostrud reprehenderit dolor et do. Commodo proident occaecat cillum sit laborum nisi aliqua ea. Ad exercitation aliqua quis laboris consequat adipisicing laborum reprehenderit commodo labore.
+                            </Row>
+                            <Row className="d ">
+                            <div style={{height:'50px'}}></div>
+                                Products
+                            </Row>
+                            <Row>
+                                <div style={{height:'50px'}}></div>
+                                <MediaCard/>
+                                <MediaCard/>
+                                
+                            </Row>                                    
+{/*</Row>*/}
+
+
+               
+          
+    
+        </Container>
+
+    
+
     )
 }
 

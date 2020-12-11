@@ -1,8 +1,6 @@
 import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
-import Col from 'react-bootstrap/Col'
-import {Link} from 'react-router-dom'
 import MediaCard from '../stations/card'
 
 function shops() {
@@ -11,17 +9,13 @@ function shops() {
             <Row className = "prodnme">
                 Product Name
             </Row>
-            <Row className="division">
-                <Col>
-                    <Row>                            
-                        
-                        <Row className="description "> 
+          {/*              <Row className="description " style={{width:'100%'}}> */}
                                   {/*  <Row className="d ">
                                         <Link to="/shops" style={{textDecoration:"none"}}>
                                         <div className="white">SHOP NAME</div>
     </Link></Row>*/}
                                     <Row className="d">Deciption</Row>
-                                    <Row style={{width:'100%'}}>
+                                    <Row style={{width:'device-width'}}>
                                         Nostrud reprehenderit dolor et do. Commodo proident occaecat cillum sit laborum nisi aliqua ea. Ad exercitation aliqua quis laboris consequat adipisicing laborum reprehenderit commodo labore.
                                     </Row>
                                     <Row className="d ">
@@ -34,13 +28,12 @@ function shops() {
                                         <MediaCard/>
                                         
                                     </Row>                                    
-                                </Row>
+{/*</Row>*/}
 
 
                        
-                    </Row>    
-                </Col>
-                </Row>
+                  
+            
                 </Container>
     )
 }
