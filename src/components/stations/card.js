@@ -31,7 +31,7 @@ const useStyles = makeStyles({
     
   },
   media: {
-    height: 350,
+    height: 450,
   },
   white:{
     fontFamily:'Roboto Sans-Serif',
