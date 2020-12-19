@@ -31,7 +31,7 @@ const useStyles = makeStyles({
     
   },
   media: {
-    height: 140,
+    height: 350,
   },
   white:{
     fontFamily:'Roboto Sans-Serif',
@@ -104,7 +104,7 @@ export default function MediaCard() {
               <CardActions className={classes.a}>        
                 <Button size="small" color="#">
                   <div className={classes.white} style={{textDecoration:'none'}}>
-                  Learn More
+                    Learn More
                   </div>
                 </Button>
               </CardActions>

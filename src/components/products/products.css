@@ -3,13 +3,13 @@
    background: linear-gradient(to bottom right, #000000 20%,#545454 );
    color: white;
    height: 90vh;
-   /*overflow-x: hidden;*/
+    /*overflow-x: hidden;*/
    align-items: center;
-   /*justify-content: center;*/
-   justify-items: center;
+    /*justify-content: center;*/
+    /* justify-items: center;*/
    overflow-y: auto;   
    padding-left: 2%;
-   text-align: center;
+    /*text-align: center;*/
 }
 
 .name:hover{
@@ -17,7 +17,7 @@
 }
 
 .right{
-    padding-right: 25px;
+   /* padding-right: 25px;*/
 }
 
 .catname{
@@ -26,7 +26,7 @@
     margin-top: 0px;
     padding-top: 0px;
     align-items: center;
-    justify-content: center;
+        /*justify-content: center;*/
     padding-top: 0%;
     color:whitesmoke;
     font-size: xx-large;
@@ -48,6 +48,7 @@
     font-size: xx-large;
     text-decoration: none;
     color: #ffffff;
+    /*width: 10%;*/
     font-family: 'Roboto', sans-serif;
 }
 
@@ -64,11 +65,11 @@
 } */
 
 .prodnme{
-  padding-top: 25px;
-  /*text-align: start;*/
+  padding-top: 40px;
+    /*text-align: start;*/
   color: #45F8C2;
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow:  none ;
   font-family: 'Roboto', sans-serif;
 }
@@ -76,7 +77,11 @@
 
 
 .pimage{
-    margin-top: 25px;
+    /*margin-top: 25px;*/
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    align-items: center;
     box-shadow: 10px 5px 5px black;
     width: 100%;
     border-radius: 10px;
@@ -86,7 +91,7 @@
 
 
 .amount{
-    padding-top: 40px;
+    padding-top: 10px;
     color: #45F8C2;
 }
 
@@ -94,3 +99,13 @@
     width: 50%;
     margin: 0 auto;
 }
+
+.react-transform-component.TransformComponent-module_container__3NwNd, .scenter {
+margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .aligned-center {
+      width: 90%;
+    }
+  }
