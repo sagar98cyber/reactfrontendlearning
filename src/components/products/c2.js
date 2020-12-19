@@ -16,7 +16,7 @@ function c2() {
           </Link>
         </div>
 
-        <div >
+        <div style={{marginTop:"15px"}}>
           <TransformWrapper className="margin-auto">
             <TransformComponent >
               <img src={m} style={{ borderRadius: "10px" }} className="pimage" />

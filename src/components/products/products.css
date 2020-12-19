@@ -8,7 +8,7 @@
     /*justify-content: center;*/
     /* justify-items: center;*/
    overflow-y: auto;   
-   padding-left: 2%;
+  /* padding-left: 2%;*/
     /*text-align: center;*/
 }
 
@@ -78,9 +78,9 @@
 
 .pimage{
     /*margin-top: 25px;*/
-    margin: 0;
-    padding: 0;
-    padding-top: 25px;
+   
+    padding-top: 0px;
+    /*padding-top: 25px;*/
     align-items: center;
     box-shadow: 10px 5px 5px black;
     width: 100%;
@@ -96,6 +96,7 @@
 }
 
 .aligned-center {
+    padding-top: 10px;
     width: 50%;
     margin: 0 auto;
 }
