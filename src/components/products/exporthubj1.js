@@ -16,7 +16,7 @@ function ExportHubj1() {
                 Export Hub Jersey1
             </Row>
             <Row className="division">
-                <Col>
+               
                     <Row>                            
                         
                         <Row className="description "> 
@@ -32,8 +32,8 @@ function ExportHubj1() {
                                     </Row>                                   
                                 </Row>                    
                     </Row>    
-                </Col>
-                <Col className="right">
+            
+               
                   
                      {/*<img src={m} style={{borderRadius:"10px"}} className="pimage"/> */}   
                      <TransformWrapper>
@@ -41,8 +41,7 @@ function ExportHubj1() {
                         <img src={m} style={{borderRadius:"10px"}} className="pimage"/>
                         </TransformComponent>
                     </TransformWrapper>
-                       
-                </Col>
+     
             </Row>
         </Container>
     )

@@ -1,7 +1,8 @@
 import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
-import m from '../../Media/cup.jpeg'
+import m from '../../Media/export_1.png'
+//import m from '../../Media/cup.jpeg'
 import './products.css'
 import { Link } from 'react-router-dom'
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
@@ -9,9 +10,15 @@ function c2() {
   return (
     <Container className="products">
       <div className="aligned-center">
+        <div className="d scenter" style={{textAlign:"center"}}>
+          <Link to="/shops" style={{ textDecoration: "none" }}>
+            <div className="white">SHOP NAME</div>
+          </Link>
+        </div>
+
         <div >
-          <TransformWrapper>
-            <TransformComponent>
+          <TransformWrapper className="margin-auto">
+            <TransformComponent >
               <img src={m} style={{ borderRadius: "10px" }} className="pimage" />
             </TransformComponent>
           </TransformWrapper>
@@ -21,17 +28,15 @@ function c2() {
           </div>
         <div className="d amount">
           Price-400/-
-                                  </div>
+        </div>
         <div className="description ">
-          <div className="d ">
-            <Link to="/shops" style={{ textDecoration: "none" }}>
-              <div className="white">SHOP NAME</div>
-            </Link>
-          </div>
+
 
           <div className="d">Deciption</div>
           <Row style={{ width: '100%' }}>
-            Nostrud reprehenderit dolor et do. Commodo proident occaecat cillum sit laborum nisi aliqua ea. Ad exercitation aliqua quis laboris consequat adipisicing laborum reprehenderit commodo labore.
+            Nostrud reprehenderit dolor et do.
+            Commodo proident occaecat cillum sit laborum nisi aliqua ea.
+            Ad exercitation aliqua quis laboris consequat adipisicing laborum reprehenderit commodo labore.
                                   </Row>
 
 
