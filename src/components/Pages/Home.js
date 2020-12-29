@@ -18,7 +18,8 @@ theme=responsiveFontSizes(theme);
     return(
         <div className='home'>
                 <div className="loc">  
-                    <div className="bmumbai bmmumbai">
+
+                    <div className="bmumbai ">
                         <Link to = '/mumbai'>  
                             <img src={m}  alt="Mumbai" width = "1000" className ="responsive"/>
                             <div className="child">
@@ -53,7 +54,8 @@ theme=responsiveFontSizes(theme);
                                     </MuiThemeProvider>
                                 </div>
                             </Link>
-                    </div>                  
+                    </div>       
+                    
                 </div>
             </div>
     )
