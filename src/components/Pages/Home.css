@@ -1,5 +1,5 @@
 .home{
-  padding-top: 25px;
+  /*padding-top: 25px;*/
   padding-right: 25px;
     background: linear-gradient(to bottom right, #000000 20%,#545454 );
     color: white;
@@ -18,13 +18,14 @@
   border-color: white;
 }
 .bmmumbai{
-  margin-top: 10px;
+  /*margin-top: 25px;*/
  /* padding-top: 100px;*/
 }
 .loc{
   justify-content: center;
   color: white;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
+  
   margin-left: 25px;
   /*margin: auto;*/
 }
